@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Main!</string>
+	<string name="app_name">Gestor Proyectos</string>
+	<string name="see_projects">Ver Proyectos</string>
+	<string name="frogtek">Frogtek</string>
+	<string name="help">Ayuda</string>
+	<string name="projects">Proyectos</string>
+	<string name="add_proyect">Añadir Proyecto</string>
+	<string name="description">Descripción</string>
+	<string name="depart">Departamento</string>
+	<string name="workers">Integrantes</string>
+	<string name="add_worker">Añadir integrante</string>
+	<string name="new_project">Nuevo proyecto</string>
+	<string name="new_project_ok">Projecto creado con éxito</string>
+	<string name="new_worker">Nuevo integrante</string>
+	<string name="name">Nombre</string>
+	<string name="save">Guardar</string>
+	<string name="cancel">Cancelar</string>
+	<string name="phone">Teléfono</string>
+	<string name="email">Email</string>
+	<string name="rol">Rol</string>
+
+
+</resources>

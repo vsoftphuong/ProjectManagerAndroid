@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF" android:orientation="vertical">
+	<TextView android:text="@string/new_project"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="20px"
+		android:layout_marginTop="10px" />
+	<TextView android:text="@string/name" android:id="@+id/name"
+		android:layout_marginTop="20px" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_width="fill_parent" android:id="@+id/nameEdit"
+		android:layout_height="wrap_content" android:hint="Nombre del proyecto"></EditText>
+	<TextView android:text="@string/description" android:id="@+id/description"
+		android:layout_marginTop="20px" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_width="fill_parent" android:id="@+id/descriptionEdit"
+		android:layout_height="wrap_content" android:hint="Descripción del proyecto"
+		android:lines="5"></EditText>
+	<TextView android:text="@string/depart" android:id="@+id/depart"
+		android:layout_marginTop="20px" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<Spinner android:id="@+id/departamento" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Spinner>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#FFFFFF" android:orientation="horizontal"
+		android:gravity="center">
+		<Button android:text="@string/save" android:id="@+id/save"
+			android:layout_width="150px" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/cancel" android:id="@+id/cancel"
+			android:layout_width="150px" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

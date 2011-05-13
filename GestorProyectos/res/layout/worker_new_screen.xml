@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF" android:orientation="vertical">
+	<TextView android:text="@string/app_name"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="20px"
+		android:layout_marginTop="10px" />
+	<TextView android:text="@string/frogtek"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="15px"
+		android:layout_marginTop="10px" />
+	<Button android:id="@+id/project_list" android:layout_width="200px"
+		android:layout_height="wrap_content" android:text="@string/see_projects"
+		android:layout_gravity="center" android:layout_marginTop="40px">
+	</Button>
+	<Button android:id="@+id/help" android:text="@string/help"
+		android:layout_width="200px" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:layout_marginTop="40px"></Button>
+</LinearLayout>

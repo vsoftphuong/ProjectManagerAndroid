@@ -1,0 +1,13 @@
+<resources>
+	<string-array name="departamentos">
+		<item>Ingeniería del Software</item>
+		<item>Electrónica Digital</item>
+		<item>Matemática Aplicada</item>
+		<item>Señales y Comunicación</item>
+	</string-array>
+	<string-array name="roles">
+		<item>Profesor</item>
+		<item>Estudiante</item>
+		<item>Contratado</item>
+	</string-array>
+</resources>
